@@ -117,6 +117,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('upload', function(n) {
     if(grunt.option('prod')) {
+        // grunt.task.run(['jshint', 'test', 'concat', 'uglify', 'cssmin'])
 
 
       // add your production server task here
