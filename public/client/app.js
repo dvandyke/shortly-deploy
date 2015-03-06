@@ -1,5 +1,4 @@
-{
-  window.Shortly = Backbone.View.extend({
+window.Shortly = Backbone.View.extend({
   template: Templates.layout,
 
   events: {
